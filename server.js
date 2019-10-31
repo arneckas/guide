@@ -49,7 +49,7 @@ app.get('/', function(req,res){
           <body style="background-color:#b0bec5">
               <div class="h-100">
                 <div class="row h-100">
-                    <div class="col-6">
+                    <div class="col-sm-12 col-lg-6">
                             <div class="container">
                                     <h1 class="display-4 text-center py-1">Visited Countries</h1>                 
                                     <div class="jumbotron p-3 shadow-sm">
@@ -67,7 +67,7 @@ app.get('/', function(req,res){
                                   </div>
                                   <h2 class="display-4 text-center">World Traveled: `+count+`%</h2>
                     </div>   
-                    <div class="col-6" id="mapsas">
+                    <div class="col-sm-12 col-lg-6" id="mapsas">
                         
                     </div>
                 </div>
