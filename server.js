@@ -67,7 +67,7 @@ app.get('/', function(req,res){
                                   </div>
                                   <h2 class="display-4 text-center">World Traveled: `+count+`%</h2>
                     </div>   
-                    <div class="col-sm-12 col-lg-6" id="mapsas">
+                    <div class="col-sm-12 col-lg-6 h-100" id="mapsas">
                         
                     </div>
                 </div>
